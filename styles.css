@@ -85,18 +85,7 @@ section:hover {
     transform: translateY(-10px);
 }
 
-footer {
-    text-align: center;
-    padding: 2rem;
-    background-color: #1e1e1e;
-    color: #fff;
-    width: calc(100% - 250px);
-    margin-left: 250px;
-    position: relative;
-    bottom: 0;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
+
 
 .project-list {
     display: grid;
