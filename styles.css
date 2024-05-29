@@ -85,7 +85,18 @@ section:hover {
     transform: translateY(-10px);
 }
 
-
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    color: #fff;
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    position: relative;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
 
 .project-list {
     display: grid;
@@ -174,4 +185,91 @@ section:hover {
 .education p {
     margin: 0.2rem 0;
     color: #555555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar header {
+        margin-bottom: 0;
+    }
+
+    .sidebar nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sidebar nav ul li {
+        margin: 5px;
+    }
+
+    .sidebar nav ul li a {
+        padding: 10px 15px;
+    }
+
+    .content {
+        margin-left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    section {
+        margin: 1rem auto;
+        padding: 1rem;
+    }
+
+    .project-list {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    footer {
+        width: 100%;
+        margin-left: 0;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar nav ul li a {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    .project-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .project-item p {
+        font-size: 0.9rem;
+    }
+
+    .project-link {
+        font-size: 0.8rem;
+        padding: 0.2rem 0.5rem;
+    }
+
+    .view-more {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.8rem;
+    }
+
+    .contact-list a {
+        font-size: 1.2rem;
+    }
+
+    .education h4 {
+        font-size: 1.2rem;
+    }
+
+    .education p {
+        font-size: 0.9rem;
+    }
 }
