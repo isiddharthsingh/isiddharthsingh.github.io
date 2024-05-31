@@ -375,7 +375,7 @@ footer {
         padding: 1rem;
     }
 
-    .project-list {
+    .project-container {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
@@ -402,12 +402,12 @@ footer {
         font-size: 0.9rem;
     }
 
-    .project-item h3 {
+    .project-header h3 {
         font-size: 1.2rem;
     }
 
-    .project-item p {
-        font-size: 0.9rem;
+    .project-card ul {
+        margin: 0 0 1rem 1rem;
     }
 
     .project-link {
