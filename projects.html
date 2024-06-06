@@ -33,9 +33,10 @@
                         <h3>TaleWeaver</h3>
                     </div>
                     <ul>
-                        <li>Integrates machine learning to generate creative stories based on user inputs.</li>
-                        <li>Showcases the power of natural language processing and creative AI.</li>
-                        <li>Builds engaging narratives through advanced AI algorithms.</li>
+                        <li>Developed 'Taleweaver', a robust AI-driven platform combining AWS Rekognition and OpenAI's GPT, for advanced image recognition, natural language processing, and personalized story generation, enhancing digital storytelling through cutting-edge technology.</li>
+                        <li>Engineered a comprehensive security framework using AWS Cognito, ensuring secure user authentication and sophisticated session management, while seamlessly integrating AWS API Gateway to enable efficient and scalable RESTful API interactions.</li>
+                        <li>Orchestrated the deployment of 'Taleweaver' on AWS EC2, utilizing AWS Lambda for scalable, serverless backend operations, ensuring optimal resource management and cost efficiency.</li>
+                        <li>Crafted a user-centric interface for 'Taleweaver', significantly boosting user engagement and story management capabilities, backed by AWS DynamoDB for swift, efficient data storage and retrieval operations.</li>
                     </ul>
                     <a class="project-link" href="https://github.com/isiddharthsingh/Taleweaver" target="_blank">>></a>
                 </div>
@@ -44,9 +45,10 @@
                         <h3>EcoStock: ESG Driven Market Predictions</h3>
                     </div>
                     <ul>
-                        <li>Uses Environmental, Social, and Governance (ESG) factors for stock market predictions.</li>
-                        <li>Applies machine learning in financial forecasting and sustainable investing.</li>
-                        <li>Innovative approach to predicting market trends based on ESG criteria.</li>
+                        <li>Utilized statistical models (ARIMA, SMA, SARIMAX, VARMAX, OLS) to forecast stock prices by integrating Environmental, Social, and Governance (ESG) metrics and sentiment analysis from news and social media, enhancing prediction accuracy.</li>
+                        <li>Designed and applied the VARMAX model to assess the impact of ESG factors on stock prices, achieving a Best AIC score of 1338.44, indicating a well-fitted model.</li>
+                        <li>Collected and processed large datasets using Alpha Vantage APIs, ensuring data integrity through rigorous cleaning and normalization.</li>
+                        <li>Performed exploratory data analysis, including correlation analysis and time series visualizations, to identify the relationship between sentiment scores and stock market behaviors.</li>
                     </ul>
                     <a class="project-link" href="https://github.com/isiddharthsingh/EcoStock-ESG-Driven-Market-Predictions" target="_blank">>></a>
                 </div>
@@ -55,9 +57,11 @@
                         <h3>Smart Home Energy Management System (SHEMS)</h3>
                     </div>
                     <ul>
-                        <li>Optimizes energy consumption in smart homes through automated management.</li>
-                        <li>Integrates IoT devices and machine learning algorithms for efficiency.</li>
-                        <li>Promotes sustainable energy solutions and reduces energy costs.</li>
+                        <li>Developed a robust web interface for smart device management using HTML, Bootstrap, and Node.js</li>
+                        <li>Integrated energy consumption analytics, device control, model selection, and dynamic data visualization.</li>
+                        <li>Implemented advanced security measures including pooled connections, hashed passwords, and SQL injection/XSS protections.</li>
+                        <li>Enhanced data integrity and minimized security risks in a multi-user environment.</li>
+                        <li>Key features: secure user registration and authentication, smart device management (add, list, remove devices), energy consumption analysis with graphical representations, and concurrent access management.</li>
                     </ul>
                     <a class="project-link" href="https://github.com/isiddharthsingh/Smart-Home-Energy-Management-System-SHEMS" target="_blank">>></a>
                 </div>
@@ -66,11 +70,31 @@
                         <h3>Serverless Dining Concierge Chatbot</h3>
                     </div>
                     <ul>
-                        <li>AI-driven chatbot for making dining reservations.</li>
+                        <li>Implemented a sophisticated, serverless, microservice-driven web application that serves as a Dining Concierge chatbot. This chatbot provides restaurant suggestions tailored to user preferences by leveraging Natural Language Processing (NLP) technologies, AWS S3 for storage, API Gateway for handling API requests, and AWS Lambda functions for executing backend processes.</li>
+                        <li>Developed a decoupled suggestions module that operates independently from the Lex chatbot:</li>
+                        <ul>
+                            <li>Message Retrieval: Pulls messages from an Amazon SQS queue to ensure reliable and asynchronous communication.</li>
+                            <li>Recommendation Fetching: Utilizes Amazon ElasticSearch and DynamoDB to fetch random restaurant recommendations based on user preferences.</li>
+                            <li>Email Formatting and Sending: Formats the fetched recommendations and sends them via email using Amazon SES, ensuring a personalized and user-friendly communication.</li>
+                            <li>Automation and Scheduling: Automated the entire workflow using CloudWatch event triggers, ensuring timely and systematic operation without manual intervention.</li>
+                        </ul>
                         <li>Built using serverless architecture to ensure scalability.</li>
                         <li>Enhances user experience in the hospitality industry with conversational AI.</li>
                     </ul>
                     <a class="project-link" href="https://github.com/isiddharthsingh/Serverless-Dining-Concierge-Chatbot" target="_blank">>></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Resume Maestro</h3>
+                    </div>
+                    <ul>
+                        <li>Engineered a comprehensive resume optimization application leveraging Streamlit for the frontend and FastAPI for the backend, ensuring seamless integration and delivering an efficient, user-friendly experience.</li>
+                        <li>Utilized OpenAI's GPT-4 model to analyze and optimize resumes based on job descriptions, enhancing the system's ability to generate LaTeX and PDF documents and improving alignment with job requirement</li>
+                        <li>Employed PyMuPDF for efficient text extraction from PDF resumes and developed robust LaTeX templates for automated generation of professionally formatted resumes, ensuring accurate text processing and high-quality output.</li>
+                        <li>Deployed backend services using Docker for scalability and reliability.</li>
+                        <li>Implemented features for users to upload resumes, input job descriptions, and receive optimized resumes in real-time, providing options for downloading optimized resumes in LaTeX and PDF formats to improve user satisfaction and engagement.</li>
+                    </ul>
+                    <a class="project-link" href="https://github.com/isiddharthsingh/Resume-Maestro" target="_blank">>></a>
                 </div>
             </div>
         </section>
